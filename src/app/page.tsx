@@ -1,5 +1,6 @@
 import styles from "app/page.module.css";
 import ThemeSwitch from "components/common/ThemeSwitch/ThemeSwitch";
+import SiteTwo from "components/copied2";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </div>
       <h1 className="text-center text-3xl underline">Next Js Template File</h1>
       <p className="text-center">Start your Coding with Every necessary Setup built for your scalable Project</p>
+      <SiteTwo />
     </main>
   );
 }
